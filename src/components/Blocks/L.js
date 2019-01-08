@@ -3,7 +3,8 @@ import styled from 'styled-components';
 
 export const UpperPiece1 = styled.span`
     position: absolute;
-    left: 25%;
+    left: 30%;
+    bottom: 65%;
     width:  34px;
     height: 34px;
     border-radius: 5px;
@@ -12,8 +13,8 @@ export const UpperPiece1 = styled.span`
 
 export const UpperPiece2 = styled.span`
     position: absolute;
-    left: 25%;
-    bottom: 60%;
+    left: 30%;
+    bottom: 45%;
     width:  34px;
     height: 34px;
     border-radius: 5px;
@@ -22,8 +23,8 @@ export const UpperPiece2 = styled.span`
 
 export const UpperPiece3 = styled.span`
     position: absolute;
-    left: 25%;
-    bottom: 40%;
+    left: 30%;
+    bottom: 25%;
     width:  34px;
     height: 34px;
     border-radius: 5px;
@@ -32,8 +33,8 @@ export const UpperPiece3 = styled.span`
 
 export const BottomPiece1 = styled.span`
     position: absolute;
-    left: 45%;
-    bottom: 40%;
+    left: 50%;
+    bottom: 25%;
     width:  34px;
     height: 34px;
     border-radius: 5px;

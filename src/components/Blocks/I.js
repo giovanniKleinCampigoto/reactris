@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 
-export const Piece1 = styled.span`    
+export const Piece1 = styled.span`
     position: absolute;
-    left: 30%;
-    bottom: 60%;
+    left: 40%;
+    bottom: 20%;
     width:  34px;
     height: 34px;
     border-radius: 5px;
@@ -13,8 +13,8 @@ export const Piece1 = styled.span`
 
 export const Piece2 = styled.span`
     position: absolute;
-    left: 50%;
-    bottom: 60%;
+    left: 40%;
+    bottom: 40%;
     width:  34px;
     height: 34px;
     border-radius: 5px;
@@ -23,8 +23,8 @@ export const Piece2 = styled.span`
 
 export const Piece3 = styled.span`
     position: absolute;
-    left: 50%;
-    bottom: 40%;
+    left: 40%;
+    bottom: 60%;
     width:  34px;
     height: 34px;
     border-radius: 5px;
@@ -33,8 +33,8 @@ export const Piece3 = styled.span`
 
 export const Piece4 = styled.span`
     position: absolute;
-    left: 30%;
-    bottom: 40%;
+    left: 40%;
+    bottom: 80%;
     width:  34px;
     height: 34px;
     border-radius: 5px;
@@ -46,7 +46,7 @@ export const PieceWrapper = styled.div`
     width: 200px;
 `
 
-export const Square = () => (
+export const I = () => (
     <PieceWrapper>
         <Piece1/>
         <Piece2/>

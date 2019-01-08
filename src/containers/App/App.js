@@ -4,7 +4,7 @@ import { TetrisBox } from '../../components/Layout/TetrisBox/TetrisBox'
 import { Header } from '../../components/Layout/Header/Header'
 import { ScoreBox } from '../../components/Layout/ScoreBox/ScoreBox'
 import NextPieceBox from '../../components/Layout/NextPieceBox/NextPieceBox'
-import { L } from '../../components/Blocks/L'
+import { L, T } from '../../components/Blocks'
 
 class App extends Component {
   render() {
@@ -13,7 +13,7 @@ class App extends Component {
 			<Header>Reactris</Header>			
 			<section>
 				<ScoreBox score="0"/>
-				<NextPieceBox piece={<L/>}/>
+				<NextPieceBox/>
 				<TetrisBox/>
 			</section>
 		</div>
